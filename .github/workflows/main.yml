@@ -19,5 +19,5 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         EXTERNAL_REPOSITORY: abe-masafumi/mdbook_Pages_about_flutter
-        PUBLISH_BRANCH: master
+        PUBLISH_BRANCH: main
         PUBLISH_DIR: ./book
